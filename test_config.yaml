@@ -1,0 +1,18 @@
+backtesting:
+  start_date: "2024-04-01 00:00:00"
+  end_date: "2024-04-30 23:59:59"
+  timeframe: "5min"
+  initial_balance: 100000
+
+risk_management:
+  position_size: 1.0  # 1 Lot
+  risk_per_trade: 0.01
+  stop_loss: 0.005
+  take_profit: 0.012
+  max_active_trades: 1
+  daily_risk_limit: 0.05
+
+trading_session:
+  start: "13:00"
+  end: "17:00"
+  timezone: "UTC"

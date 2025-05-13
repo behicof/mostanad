@@ -1,0 +1,7 @@
+system_requirements:
+  minimum:
+    ram: "4GB"
+    cpu: "i5"
+    storage: "10GB"
+  recommended:
+    

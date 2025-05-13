@@ -1,0 +1,13 @@
+model_performance:
+  random_forest:
+    min_accuracy: 0.75
+    min_precision: 0.75
+    max_prediction_time: 100ms
+  lstm:
+    max_rmse: 1.5
+    max_prediction_time: 200ms
+    
+strategy_performance:
+  max_drawdown: 0.02
+  min_profit_factor: 1.5
+  min_trades_per_day: 3
